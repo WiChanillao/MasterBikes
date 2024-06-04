@@ -1,0 +1,29 @@
+[
+	{
+		"precio": 35000,
+		"id": 1,
+		"title": "Asiento",
+		"thumbnailUrl": "images/productos/asiento.jpg"
+	},
+
+	{
+		"precio": 100,
+		"id": 2,
+		"title": "Casco",
+		"thumbnailUrl": "images/productos/casco.jpg"
+	},
+
+	{
+		"precio": 200,
+		"id": 3,
+		"title": "Suspencion",
+		"thumbnailUrl": "images/productos/suspencion.jpg"
+	},
+
+	{
+		"precio": 450,
+		"id": 4,
+		"title": "Guardabarro",
+		"thumbnailUrl": "images/productos/guardabarros.jpg"
+	}
+]

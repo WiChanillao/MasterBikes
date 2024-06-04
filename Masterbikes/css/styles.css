@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+/*Encabezado*/
+header{
+    display: flex;
+    min-height: 60px;
+    background-color: rgb(139, 32, 201);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: sans-serif;
+    object-fit: cover;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(67, 143, 48);
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: rgb(86, 202, 57);
+
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 15px 0px;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    height: 200px;
+}
+/*Fin Encabezado*/
+
+/*Color Textos*/
+#txt1{
+    color: rgb(0, 0, 0);
+}
+
+#txt2{
+    color: rgb(67, 143, 48);
+}
+#txt2:hover{
+    color: rgb(86, 202, 57);
+}
+
+#txt3{
+    color: rgb(100, 196, 77);
+}
+
+#txt4{
+    color: rgb(67, 143, 48);
+}
+/*Fin Color Textos*/
+
+/*Parametros generales del body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(72, 94, 67), #333333);
+}/*Fin Parametros generales del body*/
+
+/*Tabla Stock Productos*/
+.tabla-contenedor {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: rgb(95, 95, 95);
+  }
+
+  td {
+    background-color: #f2f2f2;
+  }
+
+.botones {
+    text-align: center; /* Centra los botones debajo de la tabla */
+}
+button {
+    margin: 10px 5px; /* Espacio entre los botones */
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+

@@ -1,4 +1,60 @@
-<!-- RODRIGO -->
-<!-- aqui se necesita un formulario que pida el nombre,
-email, contraseña, repetir contraseña y un boton de crear cuenta,
-ademas de una seccion que envie a iniciar sesion -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <title>Registro</title>
+</head>
+<body>
+
+   <a href="index.html">Volver</a>
+
+ <div class="login-container">
+    <h1>Registro</h1>
+
+    <form action="" id="Registro_Login">
+      <label for="nombre_usuario"><b>Nombre de usuario</b></label>
+      <input type="text" placeholder="Ingrese su usuario" name="nombre_usuario" required>
+
+      <label for="telefono"><b>Teléfono</b></label>
+      <input type="number" placeholder="Numero telefonico" name="telefono"  required>
+
+      <label for="genero">Género</label>
+            <select name="genero" id="genero">
+                <option value="">Seleccionar</option>
+                <option value="sugerencia">Masculino</option>
+                <option value="reclamo">Femenino</option>
+                <option value="consulta">Otro</option>
+            </select>
+
+      <label for="rut"><b>RUT</b></label>
+      <input type="text" placeholder="Ingrese su RUT" name="rut" required>
+
+      <label for="direccion"><b>Dirección</b></label>
+      <input type="text" placeholder="Ingrese su direccion" name="direccion" required>
+
+      <label for="mail"><b>Correo Electrónico</b></label>
+      <input type="email" placeholder="Correo electronico" name="correo" required>
+
+         
+   <form method="post" action="#" id="frm">
+
+   <label for="contrasena"><b>Contraseña: </b></label>
+   <input type="password" name="contrasena" id="contrasena" value="" placeholder="Ingrese su contraseña..." required>
+   
+   <label for="recontrasena"><b>Repetir Contraseña: </b></label>
+   <input type="password" name="recontrasena" id="recontrasena" value="" placeholder="Confirme su contraseña..." required>
+
+
+   <button type="enviar"onclick="validarPasswords()">Registrar</button>
+      
+    </form>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+ <script src="registro.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.js"></script>
+</body>
+</html>
